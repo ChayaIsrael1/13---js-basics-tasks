@@ -10,4 +10,14 @@ let number = 6; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+while (number > 1) {
+    if (Math.trunc(number % 2 == 0)) {
+        number = Math.trunc(number / 2)
+        console.log(number)
+    }
+    else {
+        number = Math.trunc((number * 3) + 1)
+        console.log(number)
 
+    }
+}
